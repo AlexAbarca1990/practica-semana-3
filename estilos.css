@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, SansSerif; /*tipografia de letra*/
+    font-size: 16px; /*tamaño de la tipografia*/
+    background: #424242; /*color de fondo*/
+}
+
+.contenedor {
+    width: 96%;
+    max-width: 1000px; /*ancho maximo*/
+    margin: 20px auto; /*centrar usando los margenes*/
+    overflow: hidden;
+}
+
+header{
+    background: lightskyblue;
+}
+
+header nav{
+    width: 100%;
+}
+
+header nav ul{
+    list-style: none;
+    overflow: hidden; /*se usa para que los elementos no se desborden*/
+}
+
+header nav ul li{
+    float: left;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+    padding: 15px 20px; /*padding mueve los elementos internamente*/
+}
+
+header nav ul li a:hover{
+    background: #000000;
+    color: #ffffff; /*hover me sirve para dar efecto de color al cursor cuando pasa por un elemento*/
+}
+
+.main{
+    float: left;
+    width: 70%;
+    background: white;
+
+}
+
+.main .imagen{
+    width: 100%;
+}
+
+.main .imagen img{
+    width: 100%;
+}
+
+.main .post{
+    padding: 40px;
+}
+
+.main .post article h2{
+    margin-bottom: 20px;
+    color: #424242;
+}
+
+.main .post article p{
+    margin-bottom: 15px;
+    line-height: 27px;
+}
+
+aside{
+    width: 30%;
+    float: left;
+    background: #161f26;
+    padding: 20px;
+    color: white;
+}
+
+aside .widget{
+    margin-bottom: 20px;
+}
+
+aside .widget .titulo{
+    color: #ff8000;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 10px;
+}
+
+aside .widget ul{
+    list-style: none;
+}
+
+aside .widget ul li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 0;
+}
+
+aside .widget ul li a{
+    color: white;
+    text-decoration: none;
+}aside .widget ul li a:hover{
+     color: aqua;
+ }
+
+aside .widget p{
+    line-height: 17px;
+}
+
+footer{
+    width: 70%;
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+    padding: 15px 0;
+    overflow: hidden;
+}
